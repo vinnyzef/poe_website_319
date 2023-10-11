@@ -1,5 +1,10 @@
 import React from "react"
-
+import Footer from "./Footer"
 export default function () {
-  return <div className="col-sm-4">hello</div>
+  return (
+    <div>
+      Main page
+      <Footer />
+    </div>
+  )
 }
