@@ -18,6 +18,7 @@ const router = createBrowserRouter([
         element: <Creators />,
       },
     ],
+    // element: <Footer />,
   },
 ])
 function App() {
