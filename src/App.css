@@ -1,43 +1,100 @@
-.creators {
-  display: flex;
-  padding: 0px 390px;
-  flex-direction: column;
-  align-items: center;
-  align-self: stretch;
-  margin-bottom: 50px;
-}
-a {
-  text-decoration: none !important;
-}
-.site-footer {
-  position: static;
-  bottom: 0;
-  width: 100%;
-  height: 200px;
-  margin-bottom: 20px;
+
+/* Other styles remain the same */
+
+/* New styles extracted from inline styles */
+.content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12.5px;
+  padding: 20px;
 }
 
-.site-footer-social {
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #B63636;
+  font-size: 200px;
+  line-height: 1em;
+  word-wrap: break-word;
+}
+
+.subtitle {
+  color: black;
+  font-size: 55px;
+  word-wrap: break-word;
+}
+
+.quote-container {
+  text-align: center;
+  width: 850px;
+
+  padding: 100px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  color: #B63636;
+  font-size: 50px;
+  word-wrap: break-word;
+}
+
+.quote-text {
+  color: #1E1E1E;
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.body {
+  /* Add styles for the body content as needed */
+}
+.bottom_page{
+  min-height: 200vh; /* Adjust this value to make the page as long as you need */
+  background-color: lightgrey; 
+}
+
+.tickets-button{
+  background: #B63636;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px; /* 132% */
+  letter-spacing: 0.33px;
+  text-transform: uppercase;
+}
+.box-container{
+
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 12.5px;
+  justify-content: center; /* Add this to center boxes horizontally */
+  flex-wrap: wrap; /* Add this to move boxes to the next line if there is not enough space */
 }
-.link {
+
+.box-content-card{
   display: flex;
-  padding: 9px;
+  width: 315px;
+  box-sizing: border-box; /* Add this to fix the width issue */
+  padding-right: 0px;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 19px;
-  border: 3px solid #b63636;
 }
-.card-img-top {
-  width: 100%;
-  height: 18vw;
-  object-fit: cover;
+
+.box-content-card-image{
+  display: flex;
+  width: 300px;
+  height: 298.64px;
+  padding: 15px;
+  box-sizing: border-box; /* Add this to fix the width issue */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid #FFF;
+
 }
