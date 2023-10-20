@@ -9,7 +9,10 @@
   background-color: lightgrey;
   height: 100vh;
 }
+.content-wrapper{
+  background-color: lightgrey;
 
+}
 a {
   text-decoration: none;
   color: #b63636;
@@ -59,17 +62,17 @@ a {
 }
 
 .tickets-button {
-  background: #b63636;
+  background: #B63636;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: 33px; /* 132% */
   letter-spacing: 0.33px;
   text-transform: uppercase;
+  
 }
 .box-container {
   display: flex;
@@ -78,6 +81,20 @@ a {
   justify-content: center; /* Add this to center boxes horizontally */
   flex-wrap: wrap; /* Add this to move boxes to the next line if there is not enough space */
 }
+.click-here-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.click-here-button:hover {
+  background-color: black;
+  color: white;
+}
 
 .box-content-card {
   display: flex;
@@ -85,8 +102,9 @@ a {
   box-sizing: border-box; /* Add this to fix the width issue */
   padding-right: 0px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 5px;
+  text-align: center;
 }
 
 .box-content-card-image {
@@ -134,4 +152,21 @@ a {
   width: 100%;
   height: 18vw;
   object-fit: cover;
+}
+.image1 {
+  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/125491-28.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/124606-22.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/120621-19.jpg');
+  background-size: cover;
+  background-position: center;
 }

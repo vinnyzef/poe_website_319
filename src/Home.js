@@ -10,9 +10,7 @@ export default function Home() {
           <div className="title">POE</div>
           <div className="subtitle">A Rock Opera Musical</div>
         </div>
-        <div className="button-container">
           <button className="tickets-button">BUY TICKETS</button>
-        </div>
 
         <div className="quote-container">
           <div className="quote">“Mesmerizing,</div>
@@ -25,19 +23,22 @@ export default function Home() {
         <div className="body">
           <div className="box-container">
             <div className="box-content-card">
-              <div className="box-content-card-image"></div>
+            <div className="box-content-card-image image1"></div>    
               <h3>Keep a piece of us with you</h3>
               <p>Check out our latest apparel, accessories, and more.</p>
+              <button className="click-here-button">CLICK HERE</button>
             </div>
             <div className="box-content-card">
-              <div className="box-content-card-image"></div>
+            <div className="box-content-card-image image2"></div>    
               <h3>Keep a piece of us with you</h3>
               <p>Check out our latest apparel, accessories, and more.</p>
+              <button className="click-here-button">CLICK HERE</button>
             </div>
             <div className="box-content-card">
-              <div className="box-content-card-image"></div>
-              <h3>Keep a piece of us with you</h3>
+            <div className="box-content-card-image image3"></div>        
+                  <h3>Keep a piece of us with you</h3>
               <p>Check out our latest apparel, accessories, and more.</p>
+              <button className="click-here-button">CLICK HERE</button>
             </div>
           </div>
         </div>
@@ -45,5 +46,6 @@ export default function Home() {
       <div />
       <Footer />
     </div>
+    
   )
 }
