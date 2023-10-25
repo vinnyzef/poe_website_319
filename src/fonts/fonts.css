@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Aphro";
+  src: local("Aphro"), url("./Aphrosine_Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AphroBold";
+  src: local("AphroBold"), url("./Aphrosine_Bold.woff") format("woff");
+}

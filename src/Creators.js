@@ -27,7 +27,7 @@ const cardsData = [
   },
   {
     image: BLRR,
-    name: "Studio and Engineer",
+    name: "Alex Ortberg and Blue Lagoon Recording Room",
     description:
       "Blue Lagoon Recording Room is a professional recording studio in Rochester Minnesota...",
   },

@@ -1,3 +1,4 @@
+@import url(./fonts/fonts.css);
 /* New styles extracted from inline styles */
 .content-wrapper {
   display: flex;
@@ -9,11 +10,10 @@
   background-color: lightgrey;
   height: 100vh;
 }
-.content-wrapper{
+.content-wrapper {
   background-color: lightgrey;
-
 }
-a {
+.navbar a {
   text-decoration: none;
   color: #b63636;
 }
@@ -24,6 +24,7 @@ a {
 }
 
 .title {
+  font-family: AphroBold;
   color: #b63636;
   font-size: 200px;
   line-height: 1em;
@@ -62,7 +63,7 @@ a {
 }
 
 .tickets-button {
-  background: #B63636;
+  background: #b63636;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: #fff;
   text-align: center;
@@ -72,8 +73,17 @@ a {
   line-height: 33px; /* 132% */
   letter-spacing: 0.33px;
   text-transform: uppercase;
-  
 }
+.tickets-button a {
+  color: #fff;
+  text-decoration: none;
+}
+.tickets-button:hover {
+  background: #d84747; /* A lighter shade of the original color */
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a slight lift effect */
+  cursor: pointer; /* Change cursor to indicate a clickable item */
+}
+
 .box-container {
   display: flex;
   flex-direction: row;
@@ -90,6 +100,10 @@ a {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.click-here-button a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .click-here-button:hover {
   background-color: black;
@@ -104,7 +118,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin: 0 5px;
-  text-align: center;
+  text-align: left;
 }
 
 .box-content-card-image {
@@ -154,19 +168,19 @@ a {
   object-fit: cover;
 }
 .image1 {
-  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/125491-28.jpg');
+  background-image: url("https://imaging.broadway.com/images/hero-72/w2800/h800/000000/125491-28.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .image2 {
-  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/124606-22.jpg');
+  background-image: url("https://imaging.broadway.com/images/hero-72/w2800/h800/000000/124606-22.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .image3 {
-  background-image: url('https://imaging.broadway.com/images/hero-72/w2800/h800/000000/120621-19.jpg');
+  background-image: url("https://imaging.broadway.com/images/hero-72/w2800/h800/000000/120621-19.jpg");
   background-size: cover;
   background-position: center;
 }

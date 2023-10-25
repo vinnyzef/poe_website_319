@@ -19,7 +19,13 @@ export default function PoeNav() {
             <Nav.Link>
               <Link to={"/creators"}>Creators</Link>
             </Nav.Link>
-            <Nav.Link>Tickets</Nav.Link>
+            <Nav.Link
+              href="https://www.ticketcenter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tickets
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
